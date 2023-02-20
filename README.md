@@ -12,11 +12,11 @@ Here's some example code to get you going:
 const sdb = require("sdb.js")
 
 // Get data
-var data = sdb.get("NameOfDataToBeRead")
+let data = sdb.getString("NameOfDataToBeRead")
 
 // Set data
-sdb.set("NameOfDataToBeSet", "DataToBeSet")
+sdb.setString("NameOfDataToBeSet", "DataToBeSet")
 
 // Append data
-sdb.append("NameOfDataToBeAppended", "DataToBeAppended")
+sdb.appendString("NameOfDataToBeAppended", "DataToBeAppended")
 ```
