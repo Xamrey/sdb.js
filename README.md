@@ -21,11 +21,11 @@ sdb.setString("NameOfStringToBeSet", "StringToBeSet")
 sdb.appendString("NameOfStringToBeAppended", "StringToBeAppended")
 
 // Get array
-sdb.getArray("NameOfArrayToBeRed")
+sdb.getArray("NameOfArrayToBeRead")
 
 // Set array
-sdb.setArray("NameOfArrayToBeSet", [ArrayToBeSet])
+sdb.setArray("NameOfArrayToBeSet", ["ArrayToBeSet"])
 
 // Append array
-sdb.appendArray("NameOfArrayToBeAppended", [ArrayToBeAppended])
+sdb.appendArray("NameOfArrayToBeAppended", ["ArrayToBeAppended"])
 ```
